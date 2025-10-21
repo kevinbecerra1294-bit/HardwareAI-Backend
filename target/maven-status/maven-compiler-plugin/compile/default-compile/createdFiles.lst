@@ -1,0 +1,8 @@
+com\pcadvisor\hardwareai\controller\HardwareController.class
+com\pcadvisor\hardwareai\service\HardwareInfoService.class
+com\pcadvisor\hardwareai\config\CorsConfig.class
+com\pcadvisor\hardwareai\HardwareAiApplication.class
+com\pcadvisor\hardwareai\model\HardwareInfo.class
+com\pcadvisor\hardwareai\service\ApplicationCompatibilityService$AppDefinition.class
+com\pcadvisor\hardwareai\service\ApplicationCompatibilityService$AppResult.class
+com\pcadvisor\hardwareai\service\ApplicationCompatibilityService.class
