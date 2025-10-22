@@ -3,13 +3,13 @@
   "builds": [
     {
       "src": "Dockerfile",
-      "use": "@vercel/node"
+      "use": "@vercel/node" 
     }
   ],
   "routes": [
     {
-      "src": "/api/hardware",
-      "dest": "/"
+      "src": "/(.*)", // Captura TODAS las rutas entrantes
+      "dest": "/"     // Redirige TODAS las rutas al contenedor Docker
     }
   ]
 }
